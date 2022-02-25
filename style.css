@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: linear-gradient(to bottom, #b1367ec5, rgba(250, 206, 86, 0.788));
+    height: 98.5vh;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.image {
+    width: 200px;
+    background: url('pexels-simon-robben-614810\ \(1\).jpg');
+    height: 200px;
+    display: block;
+    margin: 0px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-position: center center;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 9vh;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.texts p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1.3em;
+    color: rgba(247, 247, 247, 0.932);
+}
+
+.name {
+    text-align: center;
+    font-size: 2.4em;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+    align-items: center;
+}
+
+.links a {
+    margin: 0.8em;
+    width: 300px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(247, 247, 247, 0.877);
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: 1px;
+    border: 2px solid rgba(231, 229, 229, 0.877);
+    padding: 18px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.links a:hover {
+    border: 2px solid #fff;
+    color: #fff;
+    text-shadow:
+    0 0 20px #eeeeee, 0 0 40px #e6e6e6;
+}
+
+.wpp {
+    width: 50px;
+    height: 50px;
+}
+
+.wpp-container {
+    position: absolute;
+    right: 2.5em;
+    bottom: 1em;
+}
+
+.message {
+    background: white;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    width: 115px;
+    padding: 7px 30px 7px 30px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.466);
+}
+
+.message h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
+.message p {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
